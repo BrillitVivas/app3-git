@@ -1,0 +1,355 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion 3</title>
+
+<!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/tema-app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/images.jpg','imagenes/hqdefault.jpg')">
+
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Contaminación  </h1>
+<p> ¡Cuida el Planeta!</p>
+<div>
+<br>
+</div>
+<div>
+<center><img src="imagenes/contaminacin-efectos.jpg" width="17%" height="18%"></center>
+
+</div>
+</div>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/contaminacion3.jpg" alt="contaminacion3" title="contaminacion3" id="wows1_0"/></li>
+		<li><img src="data1/images/contaminacionagua3.jpg" alt="contaminacion-agua3" title="contaminacion-agua3" id="wows1_1"/></li>
+		<li><img src="data1/images/contaminacionambiental.jpg" alt="contaminacion-ambiental" title="contaminacion-ambiental" id="wows1_2"/></li>
+		<li><img src="data1/images/contaminacindelagua.jpg" alt="Contaminación-del-agua" title="Contaminación-del-agua" id="wows1_3"/></li>
+		<li><img src="data1/images/contaminaciontermica.jpg" alt="contaminacion-termica" title="contaminacion-termica" id="wows1_4"/></li>
+		<li><img src="data1/images/descarga.jpg" alt="descarga" title="descarga" id="wows1_5"/></li>
+		<li><img src="data1/images/hqdefault.jpg" alt="hqdefault" title="hqdefault" id="wows1_6"/></li>
+		<li><img src="data1/images/image010.jpg" alt="image010" title="image010" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/images_1.jpg" alt="http://wowslider.com/" title="images (1)" id="wows1_8"/></a></li>
+		<li><img src="data1/images/images_2.jpg" alt="images (2)" title="images (2)" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="contaminacion3"><span><img src="data1/tooltips/contaminacion3.jpg" alt="contaminacion3"/>1</span></a>
+		<a href="#" title="contaminacion-agua3"><span><img src="data1/tooltips/contaminacionagua3.jpg" alt="contaminacion-agua3"/>2</span></a>
+		<a href="#" title="contaminacion-ambiental"><span><img src="data1/tooltips/contaminacionambiental.jpg" alt="contaminacion-ambiental"/>3</span></a>
+		<a href="#" title="Contaminación-del-agua"><span><img src="data1/tooltips/contaminacindelagua.jpg" alt="Contaminación-del-agua"/>4</span></a>
+		<a href="#" title="contaminacion-termica"><span><img src="data1/tooltips/contaminaciontermica.jpg" alt="contaminacion-termica"/>5</span></a>
+		<a href="#" title="descarga"><span><img src="data1/tooltips/descarga.jpg" alt="descarga"/>6</span></a>
+		<a href="#" title="hqdefault"><span><img src="data1/tooltips/hqdefault.jpg" alt="hqdefault"/>7</span></a>
+		<a href="#" title="image010"><span><img src="data1/tooltips/image010.jpg" alt="image010"/>8</span></a>
+		<a href="#" title="images (1)"><span><img src="data1/tooltips/images_1.jpg" alt="images (1)"/>9</span></a>
+		<a href="#" title="images (2)"><span><img src="data1/tooltips/images_2.jpg" alt="images (2)"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Contaminacion</h2>
+ <p> Definicion</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Tipos de Contaminacion</h2>
+  <p> Se muestra los tipos</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Consecuencias de la contaminacion</h2>
+  <p> Calentamiento global y reciclajes</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Medidas preventivas</h2>
+  <p>Como Prevenir la contaminacion</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Contaminacion en mientorno</h2>
+  <p>Lugares cercanos contaminados</p>
+  </a>
+  </li>
+  </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <div>
+  <img src="imagenes/LOGO.jpg" width="126" height="109">
+  </div>
+  <div>
+  <h4>Aplicacion Tres</h4>
+  <h4>Vivas Fierro Brillit </h4>
+  </div>
+  </div>
+  </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>¿Que es la contaminacion?</h1>
+  
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h4>Se llama contaminación a la transmisión y difusión de humos o gases tóxicos a medios como la atmósfera y el agua, como también a la presencia de polvos y gérmenes microbianos provenientes de los desechos de la actividad del ser humano.
+En la actualidad, el resultado del desarrollo y progreso tecnológico ha originado diversas formas de contaminación, las cuales alteran el equilibrio físico y mental del ser humano. Debido a esto, la actual contaminación se convierte en un problema más crítico que en épocas pasadas. A continuación enumeramos algunos tipos de contaminación:
+La Atmosférica (del aire)
+De las Aguas, de Ríos y Lagos.
+De los Mares
+Océanos</h4>
+  <center>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto 1</h1>
+<img src="imagenes/image010.jpg" width="378" height="206">
+<div>
+<br>
+</div>
+<div>
+</div>
+</div>
+<div></center>
+  </div>
+  </div>
+  <h4>Los efectos en la salud de los diferentes tóxicos ambientales dependerán de la dosis, del tiempo de exposición y de otros factores específicos de cada persona, puesto que no todo el mundo reacciona de la misma manera ante una misma 
+   la OMS clasificó Tóxicos ambientales por vehículosel aire contaminado como un cancerígeno humano dentro del Grupo 1, tras analizar y revisar a literatura científica más reciente que evaluaba la carcinogenicidad de la contaminación atmosférica.
+
+Por otra parte el crecimiento de las llamadas enfermedades ambientales o enfermedades emergentes, como la sensibilidad química múltiple SQM, están haciendo saltar las alarmas sanitarias, ya que la magnitud del problema puede superar cualquier previsión establecida.
+
+Es muy importante tomar consciencia de que no es necesario estar expuesto de forma especial sino que la exposición cotidiana es tóxica y nos acarreará más tarde o más temprano problemas de salud.</h4>
+   <center>
+     <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto2</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/conta.jpg" width="378" height="206">
+</div>
+</div>
+</div>
+<div>
+   </center>
+  </div>
+  </div>
+  </div>
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b"
+  <h1>TIPOS</h1>
+  </div>
+<div data-role="content" align="center">
+  <div><h4>Diferentes tipos de contaminación están clasificados por su parte que afectan o resultan por las causas de contaminación particulares. Cada uno de estos tipos tiene sus propias causas y consecuencias distintivas. El estudio de la contaminación ambiental ayuda a entender los conceptos básicos con mayor detalle y producir protocolos para los tipos específicos. En consecuencia, los principales tipos de contaminación son</h4>
+<center></center>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Tipo1</h1>
+<div>
+<br>
+</div>
+<div><img src="imagenes/contaminacion-ambiental.jpg" width="341" height="194" id="Image8"></div>
+</div>
+</div> <img src="imagenes/contaminacion3.jpg" width="525" height="234">
+<div></div>
+</div> </div>
+  </div>
+  
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>CONSECUENCIAS</h1>
+   </div>
+   <div data-role="content" aling="center">
+     </div>
+       <h4> La contaminación es una realidad en nuestra vida y es que, por desgracia, cada vez oímos más voces sobre ella. Muchos son los países que están buscando una buena solución a este problema global, aunque parece que les cuesta mucho llegar a un acuerdo que satisfaga a todos los actores del escenarios. De mientras, las consecuencias se siguen viendo, empeoran y más se destruyen los hábitats naturales que un día hicieron de este planeta un planeta verde y azul de envidiar por muchos.</h4>
+     <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto </h1>
+<div>
+<br>
+</div>
+<div>
+<center><img src="imagenes/contaminacion1.jpg" width="41%" height="32%"></center></div>
+</div>
+</div>
+<h4>Calentamiento global </h4>
+<p> Calentamiento global y cambio climático se refieren al aumento observado en los últimos siglos de la temperatura del sistema climático de la Tierra y sus efectos.1
+La comprensión científica del calentamiento global ha ido en aumento. En su quinto informe (AR5) el Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC) señala que en 2014 los científicos estaban más del 95 % seguros de que la mayor parte del calentamiento global es causada por las crecientes concentraciones de gases de efecto invernadero (GEI) y otras actividades humanas (antropogénicas).6 7 8 Las proyecciones de modelos climáticos resumidos en el AR5 indicaron que durante el presente siglo la temperatura superficial global subirá probablemente 0,3 a 1,7 °C para su escenario de emisiones más bajas usando mitigación estricta y 2,6 a 4,8 °C para las mayores.9 Estas conclusiones han sido respaldadas por las academias nacionales de ciencia de los principales países industrializados10 nota 2 y no son disputadas por ninguna organización científica de prestigio nacional o internacional.12
+El cambio climático futuro y los impactos asociados serán distintos en una región a otra alrededor del globo.13 14 Los efectos anticipados incluyen un aumento en las temperaturas globales, una subida en el nivel del mar, un cambio en los patrones de las precipitaciones y una expansión de los desiertos subtropicales.15 Se espera que el calentamiento sea mayor en la tierra que en los océanos y el más acentuado ocurra en el Ártico, con el continuo retroceso de los glaciares, el permafrost y la banquisa. Otros efectos probables incluyen fenómenos meteorológicos extremos más frecuentes, tales como olas de calor, sequías, lluvias torrenciales y fuertes nevadas;16 acidificación del océano y extinción de especies debido a regímenes de temperatura cambiantes. Entre sus impactos humanos significativos se incluye la amenaza a la seguridad alimentaria por la disminución del rendimiento de las cosechas y la pérdida de hábitat por inundación</p>
+   <center>
+     <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Calentamiento global</h1>
+<div>
+<br>
+</div>
+<div>
+
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/hqdefault.jpg',1)"><img src="imagenes/descarga.jpg" width="419" height="237" id="Image10"></a></div>
+</div>
+</div>
+<div></div>
+
+
+
+</div> </div>
+  </div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Reduzcamos la Contaminacion</h1>
+   </div>
+    <div data-role="content" aling="center">
+      <div>
+      <h1> Cada que usamos el auto contribuimos a aumentar la contaminación en el Valle de México. Para poder reducir su uso necesitamos un transporte público limpio, seguro y confiable. Sólo así podremos hacer frente a la problemática de contingencia que todos padecemos.
+
+Tú tienes el poder de hacer que las cosas cambien, apóyanos para tener la calidad de aire que merecemos. Exige al Gobernador del Estado de México, Eruviel Ávila, un transporte público de calidad que conecte eficientemente a todos los pasajeros de la zona metropolitana.
+
+Al firmar la petición, envías esta carta al Gobernador del Estado de México para que resuelva la demanda de transporte masivo de calidad que merecen los mexiquenses y que necesitamos todos los habitantes del Valle de México. 
+Algunas Maneras de  hacer que la contaminacion sea menor, pueden ser las siguientes  opciones:</h1>
+         <center>
+         <ul>No quemar ni talar plantas</ul>
+         <ul>Controlar el uso de fertilizantes y ñpesticidas</ul>
+         <ul>No botar basura en lugares inapropiados</ul>
+         <ul>Regular el servicio de aseo urbano</ul>
+         <ul>Crear conciencia ciudadana</ul>
+         <ul>crear vias de desagues para las industrias</ul>
+         <ul> Controlar los derramamientos accidentales del petreleo</ul>
+         <ul>Controlar los relaves mineros</ul>
+         
+ <div data-role="collapsible" data-content-theme="false">
+<h1>Prevencion</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/contaminacion.jpg" width="70%" height="70%"></div>
+</div>
+</div>
+<div></div>
+</div> </div>
+  </div>
+           <p>&nbsp;</p>
+        </center>
+         <center></center>
+       </div>
+     </div>
+    </div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <center>
+          <h1>Contaminacion en mi entorno</h1></center>
+      </div>
+      <h2>Los contaminantes químicos se refieren a compuestos provenientes de la industria química. Pueden ser de efectos perjudiciales muy marcados, como los productos tóxicos minerales (compuestos de fierro, cobre, zinc, mercurio, plomo, cadmio), ácidos (sulfúrico, nítrico, clorhídrico), los álcalis (potasa, soda cáustica), disolventes orgánicos (acetona), detergentes, plásticos, los derivados del petróleo (gasolina, aceites, colorantes, diesel), pesticidas (insecticidas, fungicidas, herbicidas), detergentes y abonos sintéticos (nitratos, fosfatos), entre otros.
+
+· Los contaminantes físicos se refieren a perturbaciones originadas por radioactividad, calor, ruido, efectos mecánicos, etc.
+
+· Los contaminantes biológicos son los desechos orgánicos, que al descomponerse fermentan y causan contaminación. A este grupo pertenecen los excrementos, la sangre, desechos de fábricas de cerveza, de papel, aserrín de la industria forestal, desagües, etc.
+
+3. Formas de contaminación. Se manifiesta de diversas formas:
+
+· La contaminación del aire o atmosférica se produce por los humos (vehículos e industrias), aerosoles, polvo, ruidos, malos olores, radiación atómica, etc. Es la perturbación de la calidad y composición de la atmósfera por sustancias extrañas a su constitución normal.
+
+· La contaminación del agua es causada por el vertimiento de aguas servidas o negras (urbanos e industriales), de relaves mineros, de petróleo, de abonos, de pesticidas (insecticidas, herbicidas y similares), de detergentes y otros productos.
+
+· La contaminación del suelo es causada por los pesticidas, los abonos sintéticos, el petróleo y sus derivados, las basuras, etc.
+
+· La contaminación de los alimentos afecta a los alimentos y es originada por productos químicos (pesticidas y otros) o biológicos (agentes patógenos). Consiste en la presencia en los alimentos de sustancias riesgosas o tóxicas para la salud de los consumidores y es ocasionada durante la producción, el manipuleo, el transporte, la industrialización y el consumo.
+
+· La contaminación agrícola es originada por desechos sólidos, líquidos o gaseosos de las actividades agropecuarias. Pertenecen a este grupo los plaguicidas, los fertilizantes' los desechos de establos, la erosión, el polvo del arado, el estiércol, los cadáveres y otros.
+
+· La contaminación electromagnética es originada por la emisión de ondas de radiofrecuencia y de microondas por la tecnología moderna, como radares, televisión, radioemisoras, redes eléctricas de alta tensión y las telecomunicaciones. Se conoce también como contaminación ergomagnética.
+
+· La contaminación óptica se refiere a todos los aspectos visuales que afectan la complacencia de la mirada. Se produce por la minería abierta, la deforestación incontrolado, la basura, los anuncios, el tendido eléctrico enmarañado, el mal aspecto de edificios, los estilos y los colores chocantes, la proliferación de ambulantes, etc.
+
+· La contaminación publicitaria es originada por la publicidad, que ejerce presiones exteriores y distorsiona la conciencia y el comportamiento del ser humano para que adquiera determinados productos o servicios, propiciando ideologías, variaciones en la estructura socioeconómica, cambios en la cultura, la educación, las costumbres e, incluso, en los sentimientos religiosos.
+
+· La contaminación radiactiva es la resultante de la operación de plantas de energía nuclear, accidentes nucleares y el uso de armas de este tipo. También se la conoce como contaminación neutrónica, por ser originada por los neutrones, y es muy peligrosa por los daños que produce en los tejidos de los seres vivos.
+
+· La contaminación sensorial es la agresión a los sentidos por los ruidos, las vibraciones, los malos olores, la alteración del paisaje y el deslumbramiento por luces intensas. La contaminación sónica se refiere a la producción intensiva de sonidos en determinada zona habitada y que es causa de una serie de molestias (falta de concentración, perturbaciones del trabajo, del descanso, del sueño).
+
+· La contaminación cultural es la introducción indeseable de costumbres y manifestaciones ajenas a una cultura por parte de personas y medios de comunicación, y que son origen de pérdida de valores culturales. Esta conduce a la pérdida de tradiciones y a serios problemas en los valores de los grupos étnicos, que pueden entrar en crisis de identidad</h2>
+<center><img src="imagenes/contaminacion cbtis.jpg"></center>
+    <div data-role="content" aling="center">
+       <div>
+         <h4>&nbsp;</h4></div>
+         <center><div data-role="collapsible" data-content-theme="false">
+<div>
+<br>
+</div>
+<div>
+
+
+<div data-role="collapsible" data-content-theme="false">
+<h1>Mi Entorno</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/contaminacion cbtis.jpg" width="70%" height="70%"></div>
+</div>
+</div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/images.jpg',1)"><img src="imagenes/images (1).jpg" width="275" height="183" id="Image"></a></div> </div>
+</div>
+</div>
+<div></div>
+</div> </div>
+  </div></center>
+       </div>
+   </div>
+
+</body>
+</html>
