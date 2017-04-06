@@ -5,7 +5,7 @@
      id    = "com.phonegap.example3"  
      version  = "1.0.0">  
 	 
-   <name> app3 Actualizada DATOSALUMNOS </name>  
+   <name> app3 Contaminacion </name>  
    
    <description>  
     La Contaminacion
@@ -44,6 +44,6 @@
   <acces origin="http://*/*"/>
   <plugin name="cordova-plugin-whitelist" source="npm"/>
 
-<icon src="res/android/mdpi.png" />
+<icon src="res/android/mdpi.jpg" />
   
 </widget>
